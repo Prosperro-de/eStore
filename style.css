@@ -15,6 +15,10 @@ main {
     width: 100%;
 }
 
+.text-col-white {
+    color: white;
+}
+
 .main-page {
     display: flex;
     flex-direction: column;
@@ -180,7 +184,7 @@ main {
 
 .shop-items-left-1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #FFFFFF;
     height: 328px;
@@ -196,29 +200,120 @@ main {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    max-width: 338px;
+    margin-left: -26px;
+}
 
+.shop-items-left-1-head {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 49px;
+    height:  40px;
+    color: #000000;
+}
+
+.shop-items-left-1-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height:  24px;
+    color: #909090;
+    margin-top: 16px;
 }
 
 .shop-items-left-2 {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #EDEDED;
     height: 272px;
 }
+
+.shop-items-left-desc {
+    flex-direction: column;
+    margin-left: 48px;
+    max-width: 160px;
+}
+
+.shop-items-left-head {
+    font-family: "Inter", sans-serif;
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+}
+
+.shop-items-head-span {
+    font-weight: 500;
+}
+
+.shop-items-left-text {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #909090;
+    margin-top: 8px;
+}
+
 .shop-items-left-3 {
     display: flex;
+    align-items: center;
     height: 272px;
     background-color: #353535;
 }
 
-
 .shop-items-right {
-    background-color: salmon;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #EDEDED;
 
+    height: 100%;
+}
+
+
+.shop-items-right-desc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 360px;
+    margin-left: 56px;
+}
+
+.shop-items-right-head {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
 
 }
-.apple-mac {
-    height: 100%;
+
+.shop-items-right-text {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #909090;
+    margin-top: 16px;
+
+}
+
+.top-sale-button {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    width: inherit;
+    background-color: #EDEDED;
+    border: 1px solid #000000;
+    margin-top: 16px;
+
 }
 
 .categories-browser {
